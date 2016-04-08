@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13D338E41CB7673D00690B79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D338E31CB7673D00690B79 /* main.m */; };
-		13D338E71CB7673D00690B79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D338E61CB7673D00690B79 /* AppDelegate.m */; };
 		13D338EA1CB7673D00690B79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D338E91CB7673D00690B79 /* ViewController.m */; };
 		13D338ED1CB7673D00690B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D338EB1CB7673D00690B79 /* Main.storyboard */; };
 		13D338EF1CB7673D00690B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D338EE1CB7673D00690B79 /* Assets.xcassets */; };
 		13D338F21CB7673D00690B79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D338F01CB7673D00690B79 /* LaunchScreen.storyboard */; };
 		13D701041CB781910063105E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 13D701021CB781910063105E /* LICENSE */; };
 		13D701051CB781910063105E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 13D701031CB781910063105E /* README.md */; };
+		13D7010B1CB783A10063105E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D701081CB783A10063105E /* AppDelegate.m */; };
+		13D7010C1CB783A10063105E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13D701091CB783A10063105E /* Info.plist */; };
+		13D7010D1CB783A10063105E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D7010A1CB783A10063105E /* main.m */; };
 		3F768E4EFB346716D874CFB7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1F3998B08F90032483752A /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01DCC97BC984F7908CB4585A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		13D338DF1CB7673D00690B79 /* AFNetworkingStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13D338E31CB7673D00690B79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13D338E51CB7673D00690B79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		13D338E61CB7673D00690B79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13D338E81CB7673D00690B79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		13D338E91CB7673D00690B79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		13D338EC1CB7673D00690B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13D338EE1CB7673D00690B79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13D338F11CB7673D00690B79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		13D338F31CB7673D00690B79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13D701021CB781910063105E /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
 		13D701031CB781910063105E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		13D701071CB783A10063105E /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		13D701081CB783A10063105E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		13D701091CB783A10063105E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13D7010A1CB783A10063105E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B1F3998B08F90032483752A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36284D675158EF812B3E9DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,14 +70,11 @@
 		13D338E11CB7673D00690B79 /* AFNetworkingStudy */ = {
 			isa = PBXGroup;
 			children = (
-				13D338E51CB7673D00690B79 /* AppDelegate.h */,
-				13D338E61CB7673D00690B79 /* AppDelegate.m */,
 				13D338E81CB7673D00690B79 /* ViewController.h */,
 				13D338E91CB7673D00690B79 /* ViewController.m */,
 				13D338EB1CB7673D00690B79 /* Main.storyboard */,
 				13D338EE1CB7673D00690B79 /* Assets.xcassets */,
 				13D338F01CB7673D00690B79 /* LaunchScreen.storyboard */,
-				13D338F31CB7673D00690B79 /* Info.plist */,
 				13D338E21CB7673D00690B79 /* Supporting Files */,
 			);
 			path = AFNetworkingStudy;
@@ -85,11 +83,22 @@
 		13D338E21CB7673D00690B79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				13D701061CB783A10063105E /* sys */,
 				13D701021CB781910063105E /* LICENSE */,
 				13D701031CB781910063105E /* README.md */,
-				13D338E31CB7673D00690B79 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13D701061CB783A10063105E /* sys */ = {
+			isa = PBXGroup;
+			children = (
+				13D701071CB783A10063105E /* AppDelegate.h */,
+				13D701081CB783A10063105E /* AppDelegate.m */,
+				13D701091CB783A10063105E /* Info.plist */,
+				13D7010A1CB783A10063105E /* main.m */,
+			);
+			path = sys;
 			sourceTree = "<group>";
 		};
 		42109B988ADB7517FCAEC13D /* Frameworks */ = {
@@ -172,6 +181,7 @@
 				13D338F21CB7673D00690B79 /* LaunchScreen.storyboard in Resources */,
 				13D338EF1CB7673D00690B79 /* Assets.xcassets in Resources */,
 				13D701041CB781910063105E /* LICENSE in Resources */,
+				13D7010C1CB783A10063105E /* Info.plist in Resources */,
 				13D338ED1CB7673D00690B79 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,9 +242,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				13D338EA1CB7673D00690B79 /* ViewController.m in Sources */,
-				13D338E71CB7673D00690B79 /* AppDelegate.m in Sources */,
 				13D701051CB781910063105E /* README.md in Sources */,
-				13D338E41CB7673D00690B79 /* main.m in Sources */,
+				13D7010D1CB783A10063105E /* main.m in Sources */,
+				13D7010B1CB783A10063105E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +357,7 @@
 			baseConfigurationReference = 01DCC97BC984F7908CB4585A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AFNetworkingStudy/Info.plist;
+				INFOPLIST_FILE = AFNetworkingStudy/sys/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eties.AFNetworkingStudy;
@@ -360,7 +370,7 @@
 			baseConfigurationReference = F36284D675158EF812B3E9DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AFNetworkingStudy/Info.plist;
+				INFOPLIST_FILE = AFNetworkingStudy/sys/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eties.AFNetworkingStudy;
