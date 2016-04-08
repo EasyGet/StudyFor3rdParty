@@ -21,6 +21,8 @@
 @end
 
 
+
+
 @interface NSString (NSDate)
 
 @end
@@ -35,3 +37,6 @@ extern NSUserDefaults *UserDefaults();
 extern NSNotificationCenter *NotificationCenter();
 
 extern NSString *DocumentsPath();
+
+extern NSString *DocumentsFile(NSString *fileName, NSString *fileType);
+extern NSString *DocumentsFolder(NSString *folderName);

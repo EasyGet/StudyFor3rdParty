@@ -45,3 +45,21 @@ NSString *DocumentsPath()
 {
     return [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject];
 }
+
+
+NSString *DocumentsFolder(NSString *folderName)
+{
+    return [DocumentsPath() stringByAppendingPathComponent:folderName];
+}
+NSString *DocumentsFile(NSString *fileName, NSString *fileType)
+{
+    NSString *file = @"";
+    if (fileName) {
+        file = DocumentsFolder(fileName);
+    }
+    if (fileType) {
+        file = [file stringByAppendingPathExtension:fileType];
+    }
+    
+    return file;
+}

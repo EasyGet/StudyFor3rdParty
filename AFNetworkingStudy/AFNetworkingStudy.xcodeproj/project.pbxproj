@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		13541AE21CB78D64004E93F5 /* BaseTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 13541AE11CB78D64004E93F5 /* BaseTableVC.m */; };
+		13541AE51CB78F44004E93F5 /* MainTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 13541AE41CB78F44004E93F5 /* MainTableVC.m */; };
 		13D338EA1CB7673D00690B79 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D338E91CB7673D00690B79 /* ViewController.m */; };
 		13D338ED1CB7673D00690B79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13D338EB1CB7673D00690B79 /* Main.storyboard */; };
 		13D338EF1CB7673D00690B79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13D338EE1CB7673D00690B79 /* Assets.xcassets */; };
@@ -25,6 +27,10 @@
 
 /* Begin PBXFileReference section */
 		01DCC97BC984F7908CB4585A /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		13541AE01CB78D64004E93F5 /* BaseTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableVC.h; sourceTree = "<group>"; };
+		13541AE11CB78D64004E93F5 /* BaseTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableVC.m; sourceTree = "<group>"; };
+		13541AE31CB78F44004E93F5 /* MainTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTableVC.h; sourceTree = "<group>"; };
+		13541AE41CB78F44004E93F5 /* MainTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTableVC.m; sourceTree = "<group>"; };
 		13D338DF1CB7673D00690B79 /* AFNetworkingStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFNetworkingStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13D338E81CB7673D00690B79 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		13D338E91CB7673D00690B79 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -146,6 +152,10 @@
 		13D701121CB784310063105E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				13541AE01CB78D64004E93F5 /* BaseTableVC.h */,
+				13541AE11CB78D64004E93F5 /* BaseTableVC.m */,
+				13541AE31CB78F44004E93F5 /* MainTableVC.h */,
+				13541AE41CB78F44004E93F5 /* MainTableVC.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -318,7 +328,9 @@
 				13D7010D1CB783A10063105E /* main.m in Sources */,
 				13D701211CB784860063105E /* UIHelper.m in Sources */,
 				13D7011F1CB784860063105E /* CAHelper.m in Sources */,
+				13541AE21CB78D64004E93F5 /* BaseTableVC.m in Sources */,
 				13D701201CB784860063105E /* NSHelper.m in Sources */,
+				13541AE51CB78F44004E93F5 /* MainTableVC.m in Sources */,
 				13D7010B1CB783A10063105E /* AppDelegate.m in Sources */,
 				13D7011E1CB784860063105E /* AFClientManager.m in Sources */,
 			);
