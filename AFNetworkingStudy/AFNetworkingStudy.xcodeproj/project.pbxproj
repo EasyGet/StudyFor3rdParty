@@ -16,6 +16,10 @@
 		13D7010B1CB783A10063105E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D701081CB783A10063105E /* AppDelegate.m */; };
 		13D7010C1CB783A10063105E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 13D701091CB783A10063105E /* Info.plist */; };
 		13D7010D1CB783A10063105E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D7010A1CB783A10063105E /* main.m */; };
+		13D7011E1CB784860063105E /* AFClientManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D701161CB784860063105E /* AFClientManager.m */; };
+		13D7011F1CB784860063105E /* CAHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D701181CB784860063105E /* CAHelper.m */; };
+		13D701201CB784860063105E /* NSHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D7011B1CB784860063105E /* NSHelper.m */; };
+		13D701211CB784860063105E /* UIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 13D7011D1CB784860063105E /* UIHelper.m */; };
 		3F768E4EFB346716D874CFB7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B1F3998B08F90032483752A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +37,16 @@
 		13D701081CB783A10063105E /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13D701091CB783A10063105E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13D7010A1CB783A10063105E /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		13D701151CB784860063105E /* AFClientManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFClientManager.h; sourceTree = "<group>"; };
+		13D701161CB784860063105E /* AFClientManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFClientManager.m; sourceTree = "<group>"; };
+		13D701171CB784860063105E /* CAHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAHelper.h; sourceTree = "<group>"; };
+		13D701181CB784860063105E /* CAHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAHelper.m; sourceTree = "<group>"; };
+		13D701191CB784860063105E /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		13D7011A1CB784860063105E /* NSHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSHelper.h; sourceTree = "<group>"; };
+		13D7011B1CB784860063105E /* NSHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSHelper.m; sourceTree = "<group>"; };
+		13D7011C1CB784860063105E /* UIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIHelper.h; sourceTree = "<group>"; };
+		13D7011D1CB784860063105E /* UIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIHelper.m; sourceTree = "<group>"; };
+		13D701221CB784C70063105E /* 1.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = 1.pch; sourceTree = "<group>"; };
 		1B1F3998B08F90032483752A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F36284D675158EF812B3E9DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -70,6 +84,12 @@
 		13D338E11CB7673D00690B79 /* AFNetworkingStudy */ = {
 			isa = PBXGroup;
 			children = (
+				13D701141CB784740063105E /* Helper */,
+				13D7010E1CB784310063105E /* Manager */,
+				13D7010F1CB784310063105E /* Models */,
+				13D701101CB784310063105E /* Resources */,
+				13D701121CB784310063105E /* ViewControllers */,
+				13D701131CB784310063105E /* Views */,
 				13D338E81CB7673D00690B79 /* ViewController.h */,
 				13D338E91CB7673D00690B79 /* ViewController.m */,
 				13D338EB1CB7673D00690B79 /* Main.storyboard */,
@@ -97,8 +117,60 @@
 				13D701081CB783A10063105E /* AppDelegate.m */,
 				13D701091CB783A10063105E /* Info.plist */,
 				13D7010A1CB783A10063105E /* main.m */,
+				13D701221CB784C70063105E /* 1.pch */,
 			);
 			path = sys;
+			sourceTree = "<group>";
+		};
+		13D7010E1CB784310063105E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		13D7010F1CB784310063105E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		13D701101CB784310063105E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		13D701121CB784310063105E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		13D701131CB784310063105E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		13D701141CB784740063105E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				13D701151CB784860063105E /* AFClientManager.h */,
+				13D701161CB784860063105E /* AFClientManager.m */,
+				13D701171CB784860063105E /* CAHelper.h */,
+				13D701181CB784860063105E /* CAHelper.m */,
+				13D701191CB784860063105E /* Macro.h */,
+				13D7011A1CB784860063105E /* NSHelper.h */,
+				13D7011B1CB784860063105E /* NSHelper.m */,
+				13D7011C1CB784860063105E /* UIHelper.h */,
+				13D7011D1CB784860063105E /* UIHelper.m */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		42109B988ADB7517FCAEC13D /* Frameworks */ = {
@@ -244,7 +316,11 @@
 				13D338EA1CB7673D00690B79 /* ViewController.m in Sources */,
 				13D701051CB781910063105E /* README.md in Sources */,
 				13D7010D1CB783A10063105E /* main.m in Sources */,
+				13D701211CB784860063105E /* UIHelper.m in Sources */,
+				13D7011F1CB784860063105E /* CAHelper.m in Sources */,
+				13D701201CB784860063105E /* NSHelper.m in Sources */,
 				13D7010B1CB783A10063105E /* AppDelegate.m in Sources */,
+				13D7011E1CB784860063105E /* AFClientManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +433,8 @@
 			baseConfigurationReference = 01DCC97BC984F7908CB4585A /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AFNetworkingStudy/sys/1.pch;
 				INFOPLIST_FILE = AFNetworkingStudy/sys/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -370,6 +448,8 @@
 			baseConfigurationReference = F36284D675158EF812B3E9DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AFNetworkingStudy/sys/1.pch;
 				INFOPLIST_FILE = AFNetworkingStudy/sys/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
